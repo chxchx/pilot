@@ -329,16 +329,16 @@ new_go_repository(
 ## Proxy build rules
 ##
 
-PROXY = "466a7346f3c2c2f3cbcb0f1a74d2cd9ac6a565fe"  # Jun 2, 2017
+PROXY = "38a15cbf32590ccfde07b865d8c524431935c6cc",
 
 http_file(
     name = "istio_proxy",
-    url = "https://storage.googleapis.com/istio-build/proxy/envoy-alpha-" + PROXY + ".tar.gz",
+    url = "38a15cbf32590ccfde07b865d8c524431935c6cc",
 )
 
 http_file(
     name = "istio_proxy_debug",
-    url = "https://storage.googleapis.com/istio-build/proxy/envoy-debug-" + PROXY + ".tar.gz",
+    url = "38a15cbf32590ccfde07b865d8c524431935c6cc",
 )
 
 ##
